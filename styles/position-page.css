@@ -1,4 +1,6 @@
-
+/************************************************
+				WHOLE PAGE
+************************************************/
 
 html { 
   background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed; 
@@ -7,6 +9,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+
+/************************************************
+				NAV BAR
+************************************************/
 
 nav {
 	position: fixed;
@@ -36,6 +44,12 @@ nav li {
 nav li::after {
 	content: " | ";
 }
+
+
+
+/************************************************
+				CENTER BOX AND PICTURES
+************************************************/
 
 div.central {
 	border: 10px dotted green;
